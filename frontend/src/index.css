@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #1B84FF;
+    --primary-active: #056EE9;
+    --primary-light: #F1F7FE;
+    --success: #17C653;
+    --warning: #F6B100;
+    --danger: #F8285A;
+    --dark: #1E2129;
+  }
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+}
